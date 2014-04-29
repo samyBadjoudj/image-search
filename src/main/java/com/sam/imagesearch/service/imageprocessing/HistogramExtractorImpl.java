@@ -2,6 +2,7 @@ package com.sam.imagesearch.service.imageprocessing;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
+import java.awt.image.Raster;
 import java.util.HashMap;
 
 /**
@@ -15,13 +16,12 @@ public class HistogramExtractorImpl implements HistogramExtractor {
         double[] redHistogram = new double[256];
         double[] greenHistogram = new double[256];
         double[] blueHistogram = new double[256];
-
+        Raster raster = image.getRaster();
         for(int x=0; x<image.getWidth(); x++) {
             for(int y=0; y<image.getHeight(); y++) {
-                int red = new Color(image.getRGB (x, y)).getRed();
-                int green = new Color(image.getRGB (x, y)).getGreen();
-                int blue = new Color(image.getRGB (x, y)).getBlue();
-                redHistogram[red]++; greenHistogram[green]++; blueHistogram[blue]++;
+                redHistogram[ raster.getSample(x,y, 0) ] ++;
+                greenHistogram[ raster.getSample(x,y, 1) ] ++;
+                blueHistogram[ raster.getSample(x,y, 2) ] ++;
             }
         }
 
