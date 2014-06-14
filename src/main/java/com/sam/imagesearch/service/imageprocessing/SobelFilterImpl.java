@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.UUID;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public class SobelFilterImpl implements SobelFilter {
 

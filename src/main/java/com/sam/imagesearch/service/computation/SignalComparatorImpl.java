@@ -3,7 +3,7 @@ package com.sam.imagesearch.service.computation;
 import com.sam.imagesearch.service.computation.SignalComparator;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public class SignalComparatorImpl implements SignalComparator {
 

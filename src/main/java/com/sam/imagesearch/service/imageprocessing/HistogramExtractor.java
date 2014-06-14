@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 import java.util.HashMap;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public interface HistogramExtractor {
 

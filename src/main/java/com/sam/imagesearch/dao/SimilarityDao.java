@@ -7,7 +7,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public interface SimilarityDao {
     public void saveAllSimilarities(Collection<Similarity> similarities);

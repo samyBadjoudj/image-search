@@ -3,7 +3,7 @@ package com.sam.imagesearch.entity;
 import javax.persistence.*;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 
 @Entity

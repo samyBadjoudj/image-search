@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public interface ImageCatalog {
 

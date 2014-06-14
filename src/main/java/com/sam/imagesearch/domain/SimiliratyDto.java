@@ -3,7 +3,7 @@ package com.sam.imagesearch.domain;
 import com.sam.imagesearch.entity.Similarity;
 
 /**
- * User: sbadjoudj
+ * User: Samy Badjoudj
  * Date: 08/03/14
  * Company: Antropix SARL
  */

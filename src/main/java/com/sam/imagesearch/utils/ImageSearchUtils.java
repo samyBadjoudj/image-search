@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public class ImageSearchUtils {
 

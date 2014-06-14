@@ -5,7 +5,7 @@ import org.hibernate.annotations.Type;
 import javax.persistence.*;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 @Entity
 @Table(name = "IMAGES")

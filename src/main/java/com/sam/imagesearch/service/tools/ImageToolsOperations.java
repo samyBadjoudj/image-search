@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public interface ImageToolsOperations {
     public BufferedImage resizeToExtractSignal(BufferedImage bufferedImage);

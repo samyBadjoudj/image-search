@@ -12,7 +12,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public class ImageToolsOperationsImpl implements ImageToolsOperations {
 

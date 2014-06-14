@@ -6,7 +6,7 @@ import java.awt.image.Raster;
 import java.util.HashMap;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public class HistogramExtractorImpl implements HistogramExtractor {
 

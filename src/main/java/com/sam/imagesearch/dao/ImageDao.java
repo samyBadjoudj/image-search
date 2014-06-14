@@ -5,7 +5,7 @@ import com.sam.imagesearch.entity.Image;
 import java.util.List;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public interface ImageDao {
     public Image getImageBySignal(String signal);

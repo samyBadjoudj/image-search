@@ -3,7 +3,7 @@ package com.sam.imagesearch.domain;
 import java.util.List;
 
 /**
- * User: sbadjoudj
+ * User: Samy Badjoudj
  * Date: 08/03/14
  * Company: Antropix SARL
  */

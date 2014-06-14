@@ -5,7 +5,7 @@ import org.apache.commons.lang3.tuple.ImmutablePair;
 import java.awt.image.BufferedImage;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public interface SobelFilter {
     //left is xDerivative, right is vertical ones

@@ -3,7 +3,7 @@ package com.sam.imagesearch.domain;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public class ImageUpload {
 

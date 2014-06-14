@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by sbadjoudj
+ * Created by Samy Badjoudj
  */
 public class ImageCatalogImpl implements ImageCatalog {
 
